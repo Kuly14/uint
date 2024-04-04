@@ -50,6 +50,7 @@ macro_rules! alias {
 
 alias! {
     U160 B160 (160, 3);
+    U176 B176 (176, 3);
     U192 B192 (192, 3);
     U256 B256 (256, 4);
     U320 B320 (320, 5);
@@ -78,6 +79,7 @@ pub mod tests {
         let _ = (U64::ZERO, U64::MAX, B64::ZERO);
         let _ = (U128::ZERO, U128::MAX, B128::ZERO);
         let _ = (U160::ZERO, U160::MAX, B160::ZERO);
+        let _ = (U176::ZERO, U176::MAX, B176::ZERO);
         let _ = (U192::ZERO, U192::MAX, B192::ZERO);
         let _ = (U256::ZERO, U256::MAX, B256::ZERO);
         let _ = (U320::ZERO, U320::MAX, B320::ZERO);
